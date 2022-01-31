@@ -1,0 +1,33 @@
+
+.navbar-container{
+    padding: 20px;
+    /* display: flex; */
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lib-name{
+    text-decoration: underline var(--secondary-color);
+    /* font-size: 1.3rem; */
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+a:hover{
+    text-decoration-line: underline;
+    color: var(--secondary-color);
+}
+.list-container{
+    display: flex;
+    margin-left: auto;
+}
+.link{
+    display: inline-block;
+    margin: 0px 10px;
+}

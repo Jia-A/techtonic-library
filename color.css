@@ -1,0 +1,54 @@
+@import "navbar.css";
+@import "doc.css";
+@import "sidebar.css";
+@import "containers.css";
+
+.color-intro, .color-head{
+    color: var(--font-color);
+    font-size: 1.7rem;
+
+}
+.color-intro{
+    margin: -5px;
+}
+.palette{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.color-box{
+    /* flex-basis: 10rem; */
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    border:  1px solid #8e99a7;
+}
+.info{
+    padding-left: 20px;
+}
+.primary{
+    width: 5rem;
+    background-color: var(--primary-color);
+
+}
+.secondary{
+    width: 5rem;
+    background-color: var(--secondary-color);
+}
+
+.font{
+    width: 5rem;
+    background-color: var(--font-color);
+}
+.good{
+    width: 5rem;
+    background-color: var(--good-color);
+}
+.alert{
+    width: 5rem;
+    background-color: var(--alert-color);
+}
+.warning{
+    width: 5rem;
+    background-color: var(--warning-color);
+}
