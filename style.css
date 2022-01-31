@@ -1,51 +1,21 @@
 @import "doc.css";
+@import "navbar.css";
+@import "containers.css";
+
 *{
     box-sizing: border-box;
 }
 html{
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--background-color);
-}
-a{
-    text-decoration: none;
-    color: var(--secondary-color);
-}
-.main-container{
-    width: 80%;
-    height: max-content;
-    margin: auto;
-    
-}
-.navbar-container{
-    padding: 20px;
-    /* display: flex; */
-}
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.lib-name{
-    text-decoration: underline var(--secondary-color);
-    /* font-size: 1.3rem; */
-    color: var(--font-color);
-    font-size: 18px;
+    background-color: var(--font-color);
 }
 .highlight{
-    color: var(--primary-color);
-}
-
-.list-container{
-    display: flex;
-    margin-left: auto;
-}
-.link{
-    display: inline-block;
-    margin: 0px 10px;
+    color: #132853;
 }
 .content-container{
     text-align: center;
     margin-top: 150px;
+    
     /* margin-bottom: auto; */
 }
 .main-heading{
@@ -77,16 +47,17 @@ a{
 }
 .primary-btn:hover{
     color: var(--font-color);
-    background-color: var(--primary-btn-hover);
+    background-color: #829CBC;
 }
 .secondary-btn{
-    border: 1px solid var(--secondary-color);
-    background-color: var(--background-color);
+    /* border: 1px solid var(--secondary-color); */
+    background-color: #829CBC;
     border-radius: 5px;
+    color: white;
 }
 .secondary-btn:hover{
     color: var(--background-color);
-    background-color: var(--secondary-color);
+     background-color: #6283aa;
 }
 
 

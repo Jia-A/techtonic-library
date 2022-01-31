@@ -1,13 +1,40 @@
+@import "sidebar.css";
+@import "navbar.css";
+@import "containers.css";
+
 :root{
-    --primary-color : #689689;
-    --secondary-color : #8d5b4c;
-    --primary-btn-hover: #4e8676;
-    /* --accent-color : ;
-    --alert-color: ;
-    --warning-color: ; 
-    --good-color: ;
-    --hr-color: ;
-    --borderr-color: ;  */
+    --primary-color : #1D3461;
+    --secondary-color : #829CBC;
+    /* --accent-color : ;*/
+    --alert-color: rgb(241, 125, 16); 
+    --warning-color: rgb(224, 49, 18); 
+    --good-color: rgb(21, 150, 21); 
+   /* --hr-color: ;
+    --border-color: ;  */
     --font-color: #201b1b ; 
     --background-color: #eeeef7 ; 
 }
+html{
+    font-family: 'Montserrat', sans-serif ;
+    background-color: #afbfd3;
+}
+.document-container{
+    display: flex;
+    margin-top: 100px;
+    gap: 3.125rem;
+}
+
+/* .main-document{
+
+} */
+.intro-head, .install-head{
+    color: var(--font-color);
+    font-size: 1.7rem;
+
+}
+.intro-head{
+    margin: -5px;
+}
+
+
+
