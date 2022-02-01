@@ -1,15 +1,22 @@
-@import "navbar.css";
-@import "doc.css";
-@import "sidebar.css";
-@import "containers.css";
+@import "../../assets/common-css/navbar.css";
+@import "../../document-css/doc.css";
+@import "../../assets/common-css/sidebar.css";
+@import "../../assets/common-css/sidebar.css";
 
 .color-intro, .color-head{
     color: var(--font-color);
     font-size: 1.7rem;
-
+}
+.color-head{
+    margin-bottom: 1.3rem;
 }
 .color-intro{
     margin: -5px;
+}
+.color-content{
+    padding: 20px;
+    font-size: 19px;
+    color: var(--primary-color);
 }
 .palette{
     display: flex;

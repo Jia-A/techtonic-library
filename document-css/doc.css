@@ -1,6 +1,6 @@
-@import "sidebar.css";
-@import "navbar.css";
-@import "containers.css";
+@import "../assets/common-css/sidebar.css";
+@import "../assets/common-css/navbar.css";
+@import "../assets/common-css/containers.css";
 
 :root{
     --primary-color : #1D3461;
@@ -16,17 +16,15 @@
 }
 html{
     font-family: 'Montserrat', sans-serif ;
-    background-color: #afbfd3;
+    background-color: whitesmoke;
 }
 .document-container{
     display: flex;
-    margin-top: 100px;
+    margin-top: 90px;
     gap: 3.125rem;
 }
 
-/* .main-document{
 
-} */
 .intro-head, .install-head{
     color: var(--font-color);
     font-size: 1.7rem;
@@ -34,6 +32,11 @@ html{
 }
 .intro-head{
     margin: -5px;
+}
+.intro-content, .install-process{
+    padding: 20px;
+    font-size: 19px;
+    color: var(--primary-color);
 }
 
 
