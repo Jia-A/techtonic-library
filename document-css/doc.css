@@ -23,8 +23,6 @@ html{
     margin-top: 90px;
     gap: 3.125rem;
 }
-
-
 .intro-head, .install-head{
     color: var(--font-color);
     font-size: 1.7rem;
@@ -33,11 +31,15 @@ html{
 .intro-head{
     margin: -5px;
 }
+.install-head{
+    margin-top: 30px;
+}
 .intro-content, .install-process{
     padding: 20px;
     font-size: 19px;
     color: var(--primary-color);
 }
+
 
 
 
