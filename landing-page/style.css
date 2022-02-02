@@ -13,6 +13,12 @@ html{
 .highlight{
     color: #132853;
 }
+.lib-name{
+    color:whitesmoke
+}
+a{
+    color: whitesmoke;
+}
 .content-container{
     text-align: center;
     margin-top: 150px;
