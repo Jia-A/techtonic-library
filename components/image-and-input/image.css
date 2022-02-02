@@ -1,0 +1,47 @@
+@import "../../assets/common-css/sidebar.css";
+@import "../../assets/common-css/navbar.css";
+@import "../../assets/common-css/containers.css";
+@import "../../document-css/doc.css";
+
+.image-head, .image-type{
+    color: var(--font-color);
+    font-size: 1.7rem;
+}
+.image-head{
+    margin: -5px;
+}
+.image-type{
+    margin-top: 30px;
+}
+.image-content, .res-img-content{
+    padding: 20px;
+    font-size: 19px;
+    color: var(--primary-color);
+}
+.img-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #dbe0e7;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.round-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.square-img{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+.responsive-img{
+    width: 100%;
+    height: auto;
+}

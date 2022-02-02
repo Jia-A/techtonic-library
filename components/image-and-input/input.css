@@ -1,0 +1,60 @@
+@import "../../assets/common-css/sidebar.css";
+@import "../../assets/common-css/navbar.css";
+@import "../../assets/common-css/containers.css";
+@import "../../document-css/doc.css";
+
+.input-head, .input-type{
+    color: var(--font-color);
+    font-size: 1.7rem;
+}
+.input-head{
+    margin: -5px;
+}
+.input-type{
+    margin-top: 30px;
+}
+.input-content{
+    padding: 20px;
+    font-size: 19px;
+    color: var(--primary-color);
+}
+.simple-input-boxes, .search-bar-input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #dbe0e7;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin:10px;
+}
+.input{
+    padding: 10px 15px;
+    width: 300px;
+    outline: transparent;
+}
+.password-label{
+    color: var(--warning-color);
+}
+.password-input{
+    border: 1px solid var(--warning-color)
+}
+.invalid-message{
+    color: var(--warning-color);
+    font-size: small;
+    margin-top: 5px;
+}
+.search-box{
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+}
+/* .search-bar-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
