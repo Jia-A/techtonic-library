@@ -131,13 +131,13 @@
     padding-right:10px;
 }
 .fab{
-    border-radius: 99%;
+    border-radius: 50%;
     background-color: #39779e;
     z-index: 1;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.8);;
 }
 .floating-btn{
-    padding: 18px 20px;
+    padding: 20px 20px;
     text-align: center;
     font-size: 1rem;
     border: none;
