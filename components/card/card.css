@@ -6,48 +6,48 @@
 .card-head, 
 .card-type{
     color: var(--font-color);
-    font-size: 1.7rem;
+    font-size: var(--head-type-font);
 }
 .card-head{
     margin: -5px;
 }
 .card-type{
-    margin-top: 30px;
+    margin-top: var(--type-margin);
 }
 .card-content{
-    padding: 20px;
-    font-size: 19px;
+    padding: var(--content-padding);
+    font-size: var(--content-font);
     color: var(--primary-color);
 }
 .card-container{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: var(--content-gap);
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    background-color: #dbe0e7;
-    border-radius: 5px;
+    padding: 1.875rem;
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: var(--container-margin-top);
 
 }
 
 .complete-card{
     display: flex;
     /* flex-basis: 500px; */
-    max-width: 400px;
+    max-width: 25rem;
     /* height: 800px; */
     flex-direction: column;
     /* border: 1px solid var(--secondary-color); */
-    padding-bottom: 15px ;
-    border-radius: 5px;
+    padding-bottom: 0.9375rem;
+    border-radius: var(--border-radius);
     background-color: var(--background-color);
 }
 .card-image{
     width: 100%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
 }
 .footer{
     display: flex;
@@ -58,7 +58,7 @@
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    gap: 25px;
+    gap: 1.5625rem;
     justify-content: space-around;
 }
 .main-info-cont,
@@ -81,7 +81,7 @@ h3{
 .button, 
 .card-icon{
     border: none;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     color: var(--primary-color);
@@ -111,19 +111,19 @@ h3{
     margin:-5px;
 }
 .badge{
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     color: var(--primary-color);
     background-color: var(--secondary-color);
 }
 .dismiss-badge{
     border-radius: 100%;
     background-color: var(--warning-color);
-    color: whitesmoke;
+    color: var(--whitesmoke-color);
 }
 .text-overlay{
     position: absolute;
     top: 50%;
-    color: whitesmoke;
+    color: var(--whitesmoke-color);
 }
 .text-overlay h3{
     color: var(--primary-color);
