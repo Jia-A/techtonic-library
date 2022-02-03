@@ -5,35 +5,33 @@
 
 .alert-head, .alert-topic{
     color: var(--font-color);
-    font-size: 1.7rem;
+    font-size: var(--head-type-font);
 }
 .alert-head{
     margin: -5px;
 }
 .alert-topic{
-    margin-top: 30px;
+    margin-top: var(--type-margin);
 }
 .alert-content{
-    padding: 20px;
-    font-size: 19px;
+    padding: var(--content-padding);
+    font-size: var(--content-font);
     color: var(--primary-color);
 }
 .alert-container{
     display: flex;
-    flex-basis: 400px;
+    flex-basis: var(--container-flex-basis);
     flex-direction: column;
-    gap: 30px;
-    padding: 40px;
-    margin-top: 30px;
-    background-color: #dbe0e7;
-    border-radius: 5px;
+    gap: var(--content-gap);
+    padding: 2.5rem;
+    margin-top: var(--type-margin);
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
 }
 .alert-box, .alert-border{
-    height: 50px;
-    max-width: 900px;
-    border-radius: 5px;
-    /* color: whitesmoke; */
-    
+    height: 3.125rem;
+    max-width: 56.25rem;
+    border-radius: var(--border-radius);
 }
 .alert-box{
     color: whitesmoke;
@@ -42,7 +40,7 @@ p{
 margin: 1rem;
 }
 span{
-    font-size: 19px;
+    font-size: var(--content-font);
 }
 .primary{
     background-color: var(--primary-color);
