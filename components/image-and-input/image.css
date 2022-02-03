@@ -27,10 +27,10 @@
 .img-container{
     display: flex;
     flex-direction: row;
-    gap: var(--content-gap);
+    gap: 2.5rem;
     align-items: center;
     justify-content: center;
-    padding: var(--content-gap);
+    padding: 1.875rem;
     background-color: var(--eg-container-bg);
     border-radius: var(--border-radius);
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
 
 .round-img,
 .square-img{
-     width: var(--img-width);
+    width: var(--img-width);
     height: var(--img-height);
 }
 .round-img{
