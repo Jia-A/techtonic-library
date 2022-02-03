@@ -1,0 +1,82 @@
+@import "../../assets/common-css/sidebar.css";
+@import "../../assets/common-css/navbar.css";
+@import "../../assets/common-css/containers.css";
+@import "../../document-css/doc.css";
+@import "./avatar.css";
+
+:root{
+    --btm-distance : 0.9375rem;
+    --rgt-distance : 0.75rem;
+}
+
+.badge-head, .badge-type{
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+.badge-head{
+    margin: -5px;
+}
+.badge-type{
+    margin-top: var(---type-margin);
+}
+.badge-content{
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+.badge-container{
+    display: flex;
+    flex-direction: row;
+    gap: var(--container-gap);
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+    background-color: #dbe0e7;
+    border-radius: var(--border-radius);
+    flex-wrap: wrap;
+    margin-top: var(--type-margin);
+}
+.badge-items{
+    position: relative;
+}
+.badge{
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    margin: -5px;
+    height: 0.8125rem;
+    width: 0.8125rem;
+}
+.icon-badge{
+    top: 0;
+    background-color: var(--alert-color);
+    color: whitesmoke;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.fa-2x{
+    color: var(--primary-color);
+}
+
+.on-badge{
+    bottom: var(--btm-distance);
+    right: var(--rgt-distance);
+    background-color: var(--good-color);
+    border: 2px solid var(--whitesmoke-color);
+}
+.off-badge{
+    bottom: var(--btm-distance);
+    right: var(--rgt-distance);
+    background-color: var(--gray-color);
+    border: 2px solid var(--whitesmoke-color)
+}
+.dnd-badge{
+    bottom: var(--btm-distance);
+    right: var(--rgt-distance);
+    background-color: var(--alert-color);
+    border: 2px solid var(--whitesmoke-color);
+}
+.focus{
+    color: var(--font-color);
+    font-weight: 500;
+}

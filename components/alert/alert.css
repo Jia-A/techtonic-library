@@ -22,7 +22,7 @@
     display: flex;
     flex-basis: var(--container-flex-basis);
     flex-direction: column;
-    gap: var(--content-gap);
+    gap: var(--container-gap);
     padding: 2.5rem;
     margin-top: var(--type-margin);
     background-color: var(--eg-container-bg);
