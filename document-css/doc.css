@@ -5,11 +5,11 @@
 :root{
     --primary-color : #1D3461;
     --secondary-color : #829CBC;
-
     --alert-color: rgb(241, 125, 16); 
     --warning-color: rgb(224, 49, 18); 
     --good-color: rgb(21, 150, 21); 
-    --gray-color: gray;
+    --font-color: #201b1b ; 
+    --background-color: #eeeef7 ; 
     --whitesmoke-color : whitesmoke;
     --font-color: #201b1b ; 
     --background-color: #eeeef7 ; 
@@ -25,7 +25,6 @@
     --doc-container-gap : 3.125rem; 
     --border-radius: 5px;
     --container-flex-basis : 25rem;
-
 }
 html{
     font-family: 'Montserrat', sans-serif ;
@@ -33,23 +32,23 @@ html{
 }
 .document-container{
     display: flex;
-    margin-top: var(--doc-container-margin-top);
-    gap: var(--doc-container-gap);
+    margin-top: 90px;
+    gap: 3.125rem;
 }
 .intro-head, .install-head{
     color: var(--font-color);
-    font-size: var(--head-type-font);
+    font-size: 1.7rem;
 
 }
 .intro-head{
     margin: -5px;
 }
 .install-head{
-    margin-top: var(--type-margin);
+    margin-top: 30px;
 }
 .intro-content, .install-process{
-    padding: var(--content-padding);
-    font-size: var(--content-font);
+    padding: 20px;
+    font-size: 19px;
     color: var(--primary-color);
 }
 
