@@ -34,7 +34,7 @@
     border-radius: var(--border-radius);
 }
 .alert-box{
-    color: whitesmoke;
+    color: var(--whitesmoke-color);
 }
 p{
 margin: 1rem;
