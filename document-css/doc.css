@@ -13,6 +13,7 @@
     --whitesmoke-color : whitesmoke;
     --font-color: #201b1b ; 
     --background-color: #eeeef7 ; 
+    --eg-container-bg : #dbe0e7;
 
     --head-type-font : 1.7rem;
     --type-margin : 1.875rem;
@@ -22,6 +23,8 @@
     --container-margin-top: 1.25rem;
     --doc-container-margin-top: 5.625rem;
     --doc-container-gap : 3.125rem; 
+    --border-radius: 5px;
+    --container-flex-basis : 25rem;
 
 }
 html{
