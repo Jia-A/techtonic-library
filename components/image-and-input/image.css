@@ -3,43 +3,50 @@
 @import "../../assets/common-css/containers.css";
 @import "../../document-css/doc.css";
 
-.image-head, .image-type{
+:root{
+    --img-width : 9.375rem;
+    --img-height : 9.375rem;
+}
+.image-head,
+.image-type{
     color: var(--font-color);
-    font-size: 1.7rem;
+    font-size: var(--head-type-font);
 }
 .image-head{
     margin: -5px;
 }
 .image-type{
-    margin-top: 30px;
+    margin-top: var(--type-margin);
 }
-.image-content, .res-img-content{
-    padding: 20px;
-    font-size: 19px;
+.image-content, 
+.res-img-content{
+    padding: var(--content-padding);
+    font-size: var(--content-font);
     color: var(--primary-color);
 }
 .img-container{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: var(--content-gap);
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    background-color: #dbe0e7;
-    border-radius: 5px;
+    padding: var(--content-gap);
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
+.round-img,
+.square-img{
+     width: var(--img-width);
+    height: var(--img-height);
+}
 .round-img{
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
 }
 .square-img{
-    border-radius: 5px;
-    width: 150px;
-    height: 150px;
+    border-radius: var(--border-radius);
 }
 .responsive-img{
     width: 100%;
