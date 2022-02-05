@@ -7,7 +7,10 @@
     color: var(--font-color);
     /* text-decoration-line: underline; */
 }
-
+.active{
+    color: var(--font-color);
+    text-decoration: underline;
+}
 ul{
     list-style-type: none;
     padding-left: 0px;
