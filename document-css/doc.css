@@ -32,23 +32,22 @@ html{
 }
 .document-container{
     display: flex;
-    margin-top: 90px;
-    gap: 3.125rem;
+    margin-top: var(--doc-container-margin-top);
+    gap: var(--doc-container-gap);
 }
 .intro-head, .install-head{
     color: var(--font-color);
-    font-size: 1.7rem;
-
+    font-size: var(--head-type-font);
 }
 .intro-head{
     margin: -5px;
 }
 .install-head{
-    margin-top: 30px;
+    margin-top: var(--type-margin);
 }
 .intro-content, .install-process{
-    padding: 20px;
-    font-size: 19px;
+    padding: var(--content-padding);
+    font-size: var(--content-font);
     color: var(--primary-color);
 }
 
