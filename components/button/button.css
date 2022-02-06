@@ -3,151 +3,183 @@
 @import "../../assets/common-css/containers.css";
 @import "../../document-css/doc.css";
 
-.btn-head, .btn-type{
+.btn-head,
+.btn-type {
     color: var(--font-color);
-    font-size: 1.7rem;
+    font-size: var(--head-type-font);
 }
-.btn-head{
+
+.btn-head {
     margin: -5px;
 }
-.btn-type{
-    margin-top: 30px;
+
+.btn-type {
+    margin-top: var(--type-margin);
 }
-.btn-content{
-    padding: 20px;
-    font-size: 19px;
+
+.btn-content {
+    padding: var(--content-padding);
+    font-size: var(--content-font);
     color: var(--primary-color);
 }
-.btn-container{
+
+.btn-container {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 400px;
+    flex-basis: var(--container-flex-basis);
     gap: 30px;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    background-color: #dbe0e7;
+    padding: var(--container-gap);
+    background-color: var(--eg-conatiner-bg);
     border-radius: 5px;
-    
+
 }
-.btn{
+
+.btn {
     padding: 15px 20px;
     margin: 5px;
     text-align: center;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
-    font-family: 'Montserrat', sans-serif ;
-}
-.primary-btn{
-    color: whitesmoke;
-    background-color: var(--primary-color);
-}
-.primary-btn:hover{
-    background-color: #325499;
-}
-.secondary-btn{
-    background-color: var(--secondary-color);
-    color: whitesmoke;
-}
-.secondary-btn:hover{
-    background-color: #34649e;
-}
-.success-btn{
-    background-color: var(--good-color);
-    color: whitesmoke;
-}
-.success-btn:hover{
-    background-color: rgb(21, 177, 21);
-}
-.warning-btn{
-    background-color: var(--warning-color);
-    color: whitesmoke;
-}
-.warning-btn:hover{
-    background-color:rgb(168, 34, 10);
+    font-family: 'Montserrat', sans-serif;
 }
 
-.primary-btn-border{
-    color: var(--primary-color);
-    border:  1px solid var(--primary-color);
-}
-.primary-btn-border:hover{
-    color:whitesmoke;
+.primary-btn {
+    color: var(--whitesmoke-color);
     background-color: var(--primary-color);
 }
-.secondary-btn-border{
+
+.primary-btn:hover {
+    background-color: #325499;
+}
+
+.secondary-btn {
+    background-color: var(--secondary-color);
+    color: var(--whitesmoke-color);
+}
+
+.secondary-btn:hover {
+    background-color: #34649e;
+}
+
+.success-btn {
+    background-color: var(--good-color);
+    color: var(--whitesmoke-color);
+}
+
+.success-btn:hover {
+    background-color: rgb(21, 177, 21);
+}
+
+.warning-btn {
+    background-color: var(--warning-color);
+    color: var(--whitesmoke-color);
+}
+
+.warning-btn:hover {
+    background-color: rgb(168, 34, 10);
+}
+
+.primary-btn-border {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.primary-btn-border:hover {
+    color: var(--whitesmoke-color);
+    background-color: var(--primary-color);
+}
+
+.secondary-btn-border {
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
 }
-.secondary-btn-border:hover{
-    color: whitesmoke;
+
+.secondary-btn-border:hover {
+    color: var(--whitesmoke-color);
     background-color: var(--secondary-color);
 }
-.success-btn-border{
+
+.success-btn-border {
     color: var(--good-color);
     border: 1px solid var(--good-color);
 }
-.success-btn-border:hover{
-    color: whitesmoke;
+
+.success-btn-border:hover {
+    color: var(--whitesmoke-color);
     background-color: var(--good-color);
 }
-.warning-btn-border{
+
+.warning-btn-border {
     color: var(--warning-color);
     border: 1px solid var(--warning-color);
 }
-.warning-btn-border:hover{
-    color: whitesmoke;
+
+.warning-btn-border:hover {
+    color: var(--whitesmoke-color);
     background-color: var(--warning-color);
 }
-.link-bg-btn{
+
+.link-bg-btn {
     background-color: #39779e;
 }
-.link-bg-btn:hover{
+
+.link-bg-btn:hover {
     background-color: var(--primary-color);
 }
-.link-bg-btn a{
-    color: whitesmoke;
+
+.link-bg-btn a {
+    color: var(--whitesmoke-color);
 }
-.link-border-btn{
+
+.link-border-btn {
     color: #39779e;
     border: 1px solid #39779e;
 }
-.link-border-btn:hover{
+
+.link-border-btn:hover {
     background-color: var(--primary-color);
 }
-.link-border-btn a{
+
+.link-border-btn a {
     color: #39779e;
 }
-.icon-btn{
+
+.icon-btn {
     border: 1px solid var(--primary-color)
 }
-.icon-btn:hover{
+
+.icon-btn:hover {
     background-color: var(--primary-color);
-    color: whitesmoke;
+    color: var(--whitesmoke-color);
 }
-.fas{
+
+.fas {
     color: var(--primary-color);
-    padding-right:10px;
+    padding-right: 10px;
 }
-.fab{
+
+.f-action {
     border-radius: 50%;
     background-color: #39779e;
     z-index: 1;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.8);;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.8);
+    ;
 }
-.floating-btn{
+
+.floating-btn {
     padding: 20px 20px;
     text-align: center;
     font-size: 1rem;
     border: none;
 }
-.fab:hover{
+
+.f-action:hover {
     background-color: var(--font-color);
 }
-.fal{
-    color: whitesmoke;
+
+.fal {
+    color: var(--whitesmoke-color);
 }
-
-
-
