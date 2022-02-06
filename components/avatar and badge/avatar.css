@@ -3,26 +3,32 @@
 @import "../../assets/common-css/containers.css";
 @import "../../document-css/doc.css";
 
-:root{
-    --normal-height : 6.25rem;
-    --normal-width : 6.25rem;
+:root {
+    --normal-height: 6.25rem;
+    --normal-width: 6.25rem;
 }
-.avatar-head, .avatar-type{
+
+.avatar-head,
+.avatar-type {
     color: var(--font-color);
     font-size: var(--head-type-font);
 }
-.avatar-head{
+
+.avatar-head {
     margin: -5px;
 }
-.avatar-type{
+
+.avatar-type {
     margin-top: var(--type-margin);
 }
-.avatar-content{
+
+.avatar-content {
     padding: var(--content-padding);
     font-size: var(--content-font);
     color: var(--primary-color);
 }
-.avatar-container{
+
+.avatar-container {
     display: flex;
     flex-direction: row;
     gap: var(--container-gap);
@@ -34,25 +40,32 @@
     flex-wrap: wrap;
     margin-top: var(--container-margin-top);
 }
-.round-av, .squared-av{
+
+.round-av,
+.squared-av {
     width: var(--normal-width);
     height: var(--normal-height);
 }
-.round-av{
+
+.round-av {
     border-radius: 50%;
 }
-.squared-av{
+
+.squared-av {
     border-radius: var(--border-radius);
 }
-.small{
+
+.small {
     width: 3.125rem;
     height: 3.125rem;
 }
-.normal{
+
+.normal {
     width: var(--normal-width);
     height: var(--normal-height);
 }
-.large{
+
+.large {
     width: 9.375rem;
     height: 9.375rem;
 }

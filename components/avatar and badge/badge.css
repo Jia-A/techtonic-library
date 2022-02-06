@@ -4,27 +4,32 @@
 @import "../../document-css/doc.css";
 @import "./avatar.css";
 
-:root{
-    --btm-distance : 0.9375rem;
-    --rgt-distance : 0.75rem;
+:root {
+    --btm-distance: 0.9375rem;
+    --rgt-distance: 0.75rem;
 }
 
-.badge-head, .badge-type{
+.badge-head,
+.badge-type {
     color: var(--font-color);
     font-size: var(--head-type-font);
 }
-.badge-head{
+
+.badge-head {
     margin: -5px;
 }
-.badge-type{
+
+.badge-type {
     margin-top: var(---type-margin);
 }
-.badge-content{
+
+.badge-content {
     padding: var(--content-padding);
     font-size: var(--content-font);
     color: var(--primary-color);
 }
-.badge-container{
+
+.badge-container {
     display: flex;
     flex-direction: row;
     gap: var(--container-gap);
@@ -36,10 +41,12 @@
     flex-wrap: wrap;
     margin-top: var(--type-margin);
 }
-.badge-items{
+
+.badge-items {
     position: relative;
 }
-.badge{
+
+.badge {
     position: absolute;
     right: 0;
     border-radius: 50%;
@@ -47,36 +54,41 @@
     height: 0.8125rem;
     width: 0.8125rem;
 }
-.icon-badge{
+
+.icon-badge {
     top: 0;
     background-color: var(--alert-color);
     color: whitesmoke;
     font-size: 0.7rem;
     text-align: center;
 }
-.fa-2x{
+
+.fa-2x {
     color: var(--primary-color);
 }
 
-.on-badge{
+.on-badge {
     bottom: var(--btm-distance);
     right: var(--rgt-distance);
     background-color: var(--good-color);
     border: 2px solid var(--whitesmoke-color);
 }
-.off-badge{
+
+.off-badge {
     bottom: var(--btm-distance);
     right: var(--rgt-distance);
     background-color: gray;
     border: 2px solid var(--whitesmoke-color)
 }
-.dnd-badge{
+
+.dnd-badge {
     bottom: var(--btm-distance);
     right: var(--rgt-distance);
     background-color: var(--alert-color);
     border: 2px solid var(--whitesmoke-color);
 }
-.focus{
+
+.focus {
     color: var(--font-color);
     font-weight: 500;
 }
