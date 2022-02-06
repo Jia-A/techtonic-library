@@ -5,24 +5,24 @@
 
 .color-intro, .color-head{
     color: var(--font-color);
-    font-size: 1.7rem;
+    font-size: var(--head-type-font);
 }
 .color-head{
     margin-bottom: 1.3rem;
-    margin-top: 30px;
+    margin-top: var(--type-margin);
 }
 .color-intro{
     margin: -5px;
 }
 .color-content{
-    padding: 20px;
-    font-size: 19px;
+    padding: var(--content-padding);
+    font-size: var(--content-font);
     color: var(--primary-color);
 }
 .palette{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.25rem;
 }
 .color-box{
     /* flex-basis: 10rem; */
@@ -32,7 +32,7 @@
     border:  1px solid #8e99a7;
 }
 .info{
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 .primary{
     width: 5rem;
