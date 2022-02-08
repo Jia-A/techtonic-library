@@ -12,8 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./document-css/doc.css">
-    <title>Tec{h}tonic | Introduction</title>
+    <link rel="stylesheet" href="./snackbar.css">
+    <title>Tec{h}tonic | Snackbar</title>
 </head>
 
 <body>
@@ -27,11 +27,11 @@
                 <div class="list-container">
                     <ul class="link-list">
                         <li class="link"><a href="https://github.com/Jia-A"><i
-                                    class="fab fa-github social-icon"></i></a></li>
-                        <li class="link"><a href="https://www.linkedin.com/in/jiyaagrawal/"><i
-                                    class="fab fa-linkedin-in social-icon"></i></a></li>
-                        <li class="link"><a href="https://twitter.com/jiya_agrawal2"><i
-                                    class="fab fa-twitter social-icon"></i></a></li>
+                            class="fab fa-github social-icon"></i></a></li>
+                <li class="link"><a href="https://www.linkedin.com/in/jiyaagrawal/"><i
+                            class="fab fa-linkedin-in social-icon"></i></a></li>
+                <li class="link"><a href="https://twitter.com/jiya_agrawal2"><i
+                            class="fab fa-twitter social-icon"></i></a></li>
                     </ul>
                 </div>
             </nav>
@@ -43,7 +43,7 @@
                 </div>
 
                 <ul class="doc-list">
-                    <li class="doc-item active">Introduction</li>
+                    <li class="doc-item">Introduction</li>
                     <li class="doc-item">Colors</li>
                     <li class="doc-item">Text Utilities</li>
                 </ul>
@@ -51,6 +51,7 @@
                 <div class="components">
                     Components
                 </div>
+
                 <ul>
                     <li class="comp-name">Alert</li>
                     <li class="comp-name">Avatar</li>
@@ -60,26 +61,44 @@
                     <li class="comp-name">Image</li>
                     <li class="comp-name">Input</li>
                     <li class="comp-name">Lists</li>
-                    <li class="comp-name">Snackbar</li>
+                    <li class="comp-name active">Snackbar</li>
                 </ul>
+
             </div>
-            <div class="main-document">
-                <div class="intro-head">
-                    Introduction
+            <div class="snackbar-document">
+                <div class="snackbar-head">
+                    Snackbar
                 </div>
-                <div class="intro-content">
-                    Tec{h}tonic helps you create your dream website without much head scratching in the design for it.
-                    Dive into your site making by installing this open source framework. Just add the pre-defined
-                    classes of tec{h}tonic in your html.
+                <div class="snackbar-content">
+                    Tec{h}tonic gives you two types of snackbars or toasts for normal notification or error notification
+                    on your website.
                 </div>
                 <hr>
-                <div class="install-head">
-                    Installation
+                <div class="snackbar-topic">
+                    Snackbar for normal notification
                 </div>
-                <div class="install-process">
-                    You can easily install this library by copying the link given below in the head tag of your html
-                    file.
+                <div class="snackbar-container">
+
+                    <div class="snack-main notify">
+                        <p>Hello and welcome to my UI library!!<span class="hand-icon"><i
+                                    class="fas fa-hand-peace"></i></span></p>
+                    </div>
                 </div>
+                <hr>
+                <div class="snackbar-topic">
+                    Snackbar for error notification
+                </div>
+                <div class="snackbar-container">
+
+                    <div class="snack-main error">
+                        <p class="text">Can't send photo. Retry in 5 seconds</p>
+
+                        <button class="retry">RETRY</button>
+
+                        <button class="cross-btn"><span><i class="fas fa-times"></i></span></button>
+                    </div>
+                </div>
+                <hr>
             </div>
         </div>
     </div>

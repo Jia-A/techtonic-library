@@ -17,11 +17,13 @@
     margin-top: var(--type-margin);
 }
 
-.alert-content {
+.alert-content{
+
     padding: var(--content-padding);
     font-size: var(--content-font);
     color: var(--primary-color);
 }
+
 
 .alert-container {
     display: flex;
@@ -36,7 +38,7 @@
 
 .alert-box,
 .alert-border {
-    height: 3.125rem;
+  height: 3.125rem;
     max-width: 56.25rem;
     border-radius: var(--border-radius);
 }
@@ -93,3 +95,4 @@ span {
     border: 1px solid var(--warning-color);
 
 }
+

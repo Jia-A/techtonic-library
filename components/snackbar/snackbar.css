@@ -1,0 +1,73 @@
+@import "../../assets/common-css/sidebar.css";
+@import "../../assets/common-css/navbar.css";
+@import "../../assets/common-css/containers.css";
+@import "../../document-css/doc.css";
+
+.snackbar-head,
+.snackbar-topic {
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+
+.snackbar-head {
+    margin: -5px;
+}
+
+.snackbar-topic {
+    margin-top: var(--type-margin);
+}
+
+.snackbar-content {
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+
+.snackbar-container {
+    display: flex;
+    flex-basis: var(--container-flex-basis);
+    flex-direction: column;
+    gap: var(--content-gap);
+    padding: 2.5rem;
+    margin-top: var(--type-margin);
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.retry,
+.cross-btn {
+    border: none;
+    background-color: rgb(66, 65, 65);
+    font-weight: bold;
+    color: #bb86fc;
+}
+
+.snack-main {
+    display: flex;
+
+    margin-bottom: 5px;
+    justify-content: space-around;
+    width: 25rem;
+
+    border-radius: 5px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+}
+
+.notify {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.6);
+}
+
+.error {
+    background-color: rgb(66, 65, 65);
+    color: var(--whitesmoke-color);
+}
+
+.hand-icon {
+    margin: 5px;
+}

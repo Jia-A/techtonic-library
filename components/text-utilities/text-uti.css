@@ -1,0 +1,76 @@
+@import "../../assets/common-css/containers.css";
+@import "../../assets/common-css/navbar.css";
+@import "../../assets/common-css/sidebar.css";
+@import "../../document-css/doc.css";
+
+.text-head, .text-type, .font-style-head{
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+.text-head{
+    margin: -5px;
+}
+.text-type{
+    margin-top: var(--type-margin);
+}
+.text-content{
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+.font-fam-name{
+    color: var(--font-color)
+}
+.different-texts{
+    display: flex;
+    flex-basis: var(--container-flex-basis);
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: var(--content-padding);
+    background-color: #dbe0e7;
+    gap: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.head-sentence, .small-sentence{
+    color: var(--primary-color);
+}
+.small-sentence{
+    margin: 10px;
+}
+.small-text{
+    font-size: smaller;
+}
+.smaller-text{
+    font-size: small;
+}
+.xsmall-text{
+    font-size: x-small;
+}
+.xxsmall-text{
+    font-size: xx-small;
+}
+.large-gray-text{
+    color: gray;
+    font-size: large;
+}
+.xlarge-gray-text{
+    color: rgb(95, 95, 95);
+    font-size: x-large;
+}
+.large-centered-text, .xlarge-centered-text{
+    color: var(--primary-color);
+    text-align: center;
+}
+.large-centered-text{
+    font-size: large;
+}
+.xlarge-centered-text{
+    font-size: x-large;
+}
+.code{
+    margin: 0 auto;
+    width: 400px;
+    overflow: auto;
+}
+
