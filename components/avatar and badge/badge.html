@@ -12,8 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./document-css/doc.css">
-    <title>Tec{h}tonic | Introduction</title>
+    <link rel="stylesheet" href="./badge.css">
+    <title>Tec{h}tonic | Badge</title>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
                 </div>
 
                 <ul class="doc-list">
-                    <li class="doc-item active">Introduction</li>
+                    <li class="doc-item">Introduction</li>
                     <li class="doc-item">Colors</li>
                     <li class="doc-item">Text Utilities</li>
                 </ul>
@@ -51,10 +51,11 @@
                 <div class="components">
                     Components
                 </div>
+
                 <ul>
                     <li class="comp-name">Alert</li>
                     <li class="comp-name">Avatar</li>
-                    <li class="comp-name">Badge</li>
+                    <li class="comp-name active">Badge</li>
                     <li class="comp-name">Button</li>
                     <li class="comp-name">Card</li>
                     <li class="comp-name">Image</li>
@@ -62,24 +63,61 @@
                     <li class="comp-name">Lists</li>
                     <li class="comp-name">Snackbar</li>
                 </ul>
+
             </div>
             <div class="main-document">
-                <div class="intro-head">
-                    Introduction
+                <div class="badge-head">
+                    Badge
                 </div>
-                <div class="intro-content">
-                    Tec{h}tonic helps you create your dream website without much head scratching in the design for it.
-                    Dive into your site making by installing this open source framework. Just add the pre-defined
-                    classes of tec{h}tonic in your html.
+                <div class="badge-content">
+                    Tec{h}tonic gives you 2 types of badges to use in different areas
                 </div>
                 <hr>
-                <div class="install-head">
-                    Installation
+                <div class="badge-type">
+                    Badge on icons
                 </div>
-                <div class="install-process">
-                    You can easily install this library by copying the link given below in the head tag of your html
-                    file.
+                <div class="badge-content">
+                    Badge on icons are usually used to show how many notifications, items, messages you have in a
+                    particular app.
                 </div>
+                <div class="badge-container">
+                    <div class="badge-items">
+                        <div class="cart"><i class="fas fa-shopping-cart fa-2x"></i></div>
+                        <div class="badge icon-badge">7</div>
+                    </div>
+                    <div class="badge-items">
+                        <div class="envelope"><i class="fas fa-envelope fa-2x"></i></div>
+                        <div class="badge icon-badge">3</div>
+                    </div>
+                    <div class="badge-items">
+                        <div class="notification"><i class="fas fa-bell fa-2x"></i></div>
+                        <div class="badge icon-badge">6</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="badge-type">
+                    Badge on Avatars
+                </div>
+                <div class="badge-content">
+                    Badge on avatars are used to show you the status of that person right now.
+                    They can be of three types : <span class="focus">Online, offline, do not disturb</span>
+                </div>
+                <div class="badge-container">
+                    <div class="badge-items">
+                        <img src="../../assets/avatar-image.jpg" alt="" class="round-av normal">
+                        <div class="badge on-badge"></div>
+                    </div>
+                    <div class="badge-items">
+                        <img src="../../assets/avatar-image.jpg" alt="" class="round-av normal">
+                        <div class="badge off-badge"></div>
+                    </div>
+                    <div class="badge-items">
+                        <img src="../../assets/avatar-image.jpg" alt="" class="round-av normal">
+                        <div class="badge dnd-badge"></div>
+                    </div>
+                </div>
+                <hr>
+
             </div>
         </div>
     </div>

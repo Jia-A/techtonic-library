@@ -1,7 +1,6 @@
 
 .navbar-container{
     padding: 20px;
-    /* display: flex; */
 }
 .navbar{
     display: flex;
@@ -10,7 +9,6 @@
 }
 .lib-name{
     text-decoration: underline var(--secondary-color);
-    /* font-size: 1.3rem; */
     color: var(--primary-color);
     font-size: 1.2rem;
 }
@@ -30,4 +28,7 @@ a:hover{
 .link{
     display: inline-block;
     margin: 0px 10px;
+}
+.social-icon{
+    color: var(--primary-color);
 }
