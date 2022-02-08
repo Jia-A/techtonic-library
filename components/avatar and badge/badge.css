@@ -61,7 +61,7 @@
     height: 0.8125rem;
     width: 0.8125rem;
 }
-
+.icon-badge{
     top: 0;
     background-color: var(--alert-color);
     color: whitesmoke;
