@@ -1,0 +1,54 @@
+@import "../../assets/common-css/sidebar.css";
+@import "../../assets/common-css/navbar.css";
+@import "../../assets/common-css/containers.css";
+@import "../../document-css/doc.css";
+
+:root{
+    --img-width : 9.375rem;
+    --img-height : 9.375rem;
+}
+.image-head,
+.image-type{
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+.image-head{
+    margin: -5px;
+}
+.image-type{
+    margin-top: var(--type-margin);
+}
+.image-content, 
+.res-img-content{
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+.img-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.875rem;
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.round-img,
+.square-img{
+    width: var(--img-width);
+    height: var(--img-height);
+}
+.round-img{
+    border-radius: 50%;
+}
+.square-img{
+    border-radius: var(--border-radius);
+}
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
