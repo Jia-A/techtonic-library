@@ -1,0 +1,18 @@
+.sidebar{
+    text-align:center;
+    /*  */
+}
+.doc-topic, .components{
+    font-size: 1.2rem;
+    color: var(--font-color);
+    /* text-decoration-line: underline; */
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.doc-item, .comp-name{
+    padding: 10px 0px;
+    color: var(--primary-color);
+}

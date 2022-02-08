@@ -1,0 +1,70 @@
+@import "./body.css";
+@import "../assets/common-css/navbar.css";
+@import "../assets/common-css/containers.css";
+@import "../document-css/doc.css";
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--font-color);
+}
+.highlight{
+    color: #132853;
+}
+.lib-name{
+    color:whitesmoke
+}
+a{
+    color: whitesmoke;
+}
+.content-container{
+    text-align: center;
+    margin-top: 150px;
+    
+    /* margin-bottom: auto; */
+}
+.main-heading{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color:var(--font-color);
+    opacity: 0.9;
+    
+}
+.sub-heading{
+    /* font-weight: 600; */
+    color: var(--font-color);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    border: none;
+    padding:10px;
+    margin: 5px 10px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.primary-btn{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--background-color);
+    /* opacity: 0.5; */
+}
+.primary-btn:hover{
+    color: var(--font-color);
+    background-color: #829CBC;
+}
+.secondary-btn{
+    /* border: 1px solid var(--secondary-color); */
+    background-color: #829CBC;
+    border-radius: 5px;
+    color: white;
+}
+.secondary-btn:hover{
+    color: var(--background-color);
+     background-color: #6283aa;
+}
+
+

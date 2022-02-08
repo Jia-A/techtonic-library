@@ -1,0 +1,70 @@
+@import "../../assets/common-css/containers.css";
+@import "../../assets/common-css/navbar.css";
+@import "../../assets/common-css/sidebar.css";
+@import "../../document-css/doc.css";
+
+.text-head, .text-type, .font-style-head{
+    color: var(--font-color);
+    font-size: 1.7rem;
+}
+.text-head{
+    margin: -5px;
+}
+.text-type{
+    margin-top: 30px;
+}
+.text-content{
+    padding: 20px;
+    font-size: 19px;
+    color: var(--primary-color);
+}
+.font-fam-name{
+    color: var(--font-color)
+}
+.different-texts{
+    display: flex;
+    flex-basis: 400px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #dbe0e7;
+    gap: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.head-sentence, .small-sentence{
+    color: var(--primary-color);
+}
+.small-sentence{
+    margin: 10px;
+}
+.small-text{
+    font-size: smaller;
+}
+.smaller-text{
+    font-size: small;
+}
+.xsmall-text{
+    font-size: x-small;
+}
+.xxsmall-text{
+    font-size: xx-small;
+}
+.large-gray-text{
+    color: gray;
+    font-size: large;
+}
+.xlarge-gray-text{
+    color: rgb(95, 95, 95);
+    font-size: x-large;
+}
+.large-centered-text, .xlarge-centered-text{
+    color: var(--primary-color);
+    text-align: center;
+}
+.large-centered-text{
+    font-size: large;
+}
+.xlarge-centered-text{
+    font-size: x-large;
+}
