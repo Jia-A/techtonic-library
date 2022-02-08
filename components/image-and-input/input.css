@@ -1,0 +1,62 @@
+@import "../../assets/common-css/sidebar.css";
+@import "../../assets/common-css/navbar.css";
+@import "../../assets/common-css/containers.css";
+@import "../../document-css/doc.css";
+
+.input-head, 
+.input-type{
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+.input-head{
+    margin: -5px;
+}
+.input-type{
+    margin-top: var(--type-margin);
+}
+.input-content{
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+.simple-input-boxes, 
+.search-bar-input{
+    display: flex;
+    flex-direction: column;
+    gap: var(--content-padding);
+    align-items: center;
+    justify-content: center;
+    padding: 1.875rem;
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
+}
+label{
+    display: block;
+    margin:10px;
+}
+.input{
+    padding: 10px 15px;
+    width: 18.75rem;
+    outline: transparent;
+}
+.password-label{
+    color: var(--warning-color);
+}
+.password-input{
+    border: 1px solid var(--warning-color)
+}
+.invalid-message{
+    color: var(--warning-color);
+    font-size: small;
+    margin-top: 5px;
+}
+.search-box{
+    border-radius: 3.125rem;
+    border: 1px solid var(--primary-color);
+}
+/* .search-bar-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
