@@ -68,3 +68,9 @@
 .xlarge-centered-text{
     font-size: x-large;
 }
+.code{
+    margin: 0 auto;
+    width: 400px;
+    overflow: auto;
+}
+
