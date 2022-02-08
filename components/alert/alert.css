@@ -3,77 +3,96 @@
 @import "../../assets/common-css/containers.css";
 @import "../../document-css/doc.css";
 
-.alert-head, .alert-topic{
+.alert-head,
+.alert-topic {
     color: var(--font-color);
     font-size: var(--head-type-font);
 }
-.alert-head{
+
+.alert-head {
     margin: -5px;
 }
-.alert-topic{
+
+.alert-topic {
     margin-top: var(--type-margin);
 }
+
 .alert-content{
+
     padding: var(--content-padding);
     font-size: var(--content-font);
     color: var(--primary-color);
 }
-.alert-container{
+
+
+.alert-container {
     display: flex;
     flex-basis: var(--container-flex-basis);
     flex-direction: column;
-    gap: var(--content-gap);
+    gap: var(--container-gap);
     padding: 2.5rem;
-    margin-top: var(--type-margin);
+    margin-top: var(--container-margin-top);
     background-color: var(--eg-container-bg);
     border-radius: var(--border-radius);
 }
-.alert-box, .alert-border{
-    height: 3.125rem;
+
+.alert-box,
+.alert-border {
+  height: 3.125rem;
     max-width: 56.25rem;
     border-radius: var(--border-radius);
 }
-.alert-box{
-    color: whitesmoke;
+
+.alert-box {
+    color: var(--whitesmoke-color);
 }
-p{
-margin: 1rem;
+
+p {
+    margin: 1rem;
 }
-span{
+
+span {
     font-size: var(--content-font);
 }
-.primary{
+
+.primary {
     background-color: var(--primary-color);
     opacity: 0.9;
 }
-.success{
+
+.success {
     background-color: var(--good-color);
     opacity: 0.9;
 }
-.attention{
+
+.attention {
     background-color: var(--alert-color);
     opacity: 0.9;
 }
-.warning{
+
+.warning {
     background-color: var(--warning-color);
     opacity: 0.9;
 }
-.primary-border{
+
+.primary-border {
     color: var(--primary-color);
-    border: 1px solid var(--primary-color); 
+    border: 1px solid var(--primary-color);
 }
-.success-border{
+
+.success-border {
     color: var(--good-color);
     border: 1px solid var(--good-color);
 }
-.attention-border{
+
+.attention-border {
     color: var(--alert-color);
     border: 1px solid var(--alert-color);
 }
-.warning-border{
+
+.warning-border {
     color: var(--warning-color);
     border: 1px solid var(--warning-color);
 
 }
-
 

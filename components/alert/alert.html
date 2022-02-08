@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   
-
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,17 +12,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./badge.css">
-    <title>Tec{h}tonic | Badge</title>
+    <link rel="stylesheet" href="./alert.css">
+    <title>Tec{h}tonic | Alert</title>
 </head>
 
 <body>
     <div class="main-container">
         <div class="navbar-container">
             <nav class="navbar">
-
-              
-
                 <div class="lib-name">
                     Tec{h}tonic
 
@@ -38,7 +32,6 @@
                                     class="fab fa-linkedin-in social-icon"></i></a></li>
                         <li class="link"><a href="https://twitter.com/jiya_agrawal2"><i
                                     class="fab fa-twitter social-icon"></i></a></li>
-
                     </ul>
                 </div>
             </nav>
@@ -59,18 +52,10 @@
                     Components
                 </div>
 
-                
                 <ul>
-                    <li class="comp-name">Alert</li>
+                    <li class="comp-name active">Alert</li>
                     <li class="comp-name">Avatar</li>
                     <li class="comp-name">Badge</li>
-
-
-                <ul>
-                    <li class="comp-name">Alert</li>
-                    <li class="comp-name">Avatar</li>
-                    <li class="comp-name active">Badge</li>
-
                     <li class="comp-name">Button</li>
                     <li class="comp-name">Card</li>
                     <li class="comp-name">Image</li>
@@ -80,61 +65,55 @@
                 </ul>
 
             </div>
-            <div class="main-document">
-                <div class="badge-head">
-                    Badge
+            <div class="alert-document">
+                <div class="alert-head">
+                    Alert
                 </div>
-                <div class="badge-content">
-                    Tec{h}tonic gives you 2 types of badges to use in different areas
+                <div class="alert-content">
+                    Alert is a component which is used to draw user's attention to a specified thing. Tec{h}tonic has 2
+                    categories of alert with 4 types in each.
                 </div>
                 <hr>
-                <div class="badge-type">
-                    Badge on icons
+                <div class="alert-topic">
+                    Alert with background color
                 </div>
-                <div class="badge-content">
+                <div class="alert-container">
+                    <div class="alert-box primary">
+                        <p><span>Primary! </span>Everything looks good! Keep going...</p>
 
-                    Badge on icons are usually used to show how many notifications, items, messages you have in a particular app.
-                </div>
-                <div class="badge-container">
-                    <div class="badge-items">
-                        <div class="cart"><i class="fas fa-shopping-cart fa-2x"></i></div>
-                        <div class="badge icon-badge">7</div>
                     </div>
-                    <div class="badge-items">
-                        <div class="envelope"><i class="fas fa-envelope fa-2x"></i></div>
-                        <div class="badge icon-badge">3</div>
+                    <div class="alert-box success">
+                        <p><span>Success! </span>Task successful!</p>
                     </div>
-                    <div class="badge-items">
-                        <div class="notification"><i class="fas fa-bell fa-2x"></i></div>
-                        <div class="badge icon-badge">6</div>
+                    <div class="alert-box attention">
+                        <p><span>Alert! </span>You might have a problem here...</p>
+                    </div>
+                    <div class="alert-box warning">
+                        <p><span>Warning! </span>Something went wrong!!!</p>
                     </div>
                 </div>
                 <hr>
-                <div class="badge-type">
-                    Badge on Avatars
+                <div class="alert-topic">
+                    Alert with border only
                 </div>
-                <div class="badge-content">
-                    Badge on avatars are used to show you the status of that person right now.
-                    They can be of three types : <span class="focus">Online, offline, do not disturb</span>
-                </div>
-                <div class="badge-container">
-                    <div class="badge-items">
-                        <img src="../../assets/avatar-image.jpg" alt="" class="round-av normal">
-                        <div class="badge on-badge"></div>
+                <div class="alert-container">
+                    <div class="alert-border primary-border">
+                        <p><span>Primary! </span>Everything looks good! Keep going...</p>
                     </div>
-                    <div class="badge-items">
-                        <img src="../../assets/avatar-image.jpg" alt="" class="round-av normal">
-                        <div class="badge off-badge"></div>
+                    <div class="alert-border success-border">
+                        <p><span>Success! </span>Task successful!</p>
                     </div>
-                    <div class="badge-items">
-                        <img src="../../assets/avatar-image.jpg" alt="" class="round-av normal">
-                        <div class="badge dnd-badge"></div>
+                    <div class="alert-border attention-border">
+                        <p><span>Alert! </span>You might have a problem here...</p>
+                    </div>
+                    <div class="alert-border warning-border">
+                        <p><span>Warning! </span>Something went wrong!!!</p>
                     </div>
                 </div>
                 <hr>
-
             </div>
         </div>
     </div>
 </body>
-      </html>
+
+</html>
