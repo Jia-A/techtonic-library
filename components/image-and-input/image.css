@@ -52,3 +52,13 @@
     width: 100%;
     height: auto;
 }
+
+.code{
+    margin: 1rem auto;
+    width: 400px;
+    overflow: auto;
+}
+
+.gist-meta{
+    display: none;
+}
