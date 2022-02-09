@@ -69,8 +69,12 @@
     font-size: x-large;
 }
 .code{
-    margin: 0 auto;
+    margin: 1rem auto;
     width: 400px;
     overflow: auto;
 }
+.gist-meta{
+    display: none;
+}
+
 
