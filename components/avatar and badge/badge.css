@@ -105,3 +105,13 @@
     color: var(--font-color);
     font-weight: 500;
 }
+
+.code{
+    margin: 1rem auto;
+    width: 400px;
+    overflow: auto;
+}
+
+.gist-meta{
+    display: none;
+}
