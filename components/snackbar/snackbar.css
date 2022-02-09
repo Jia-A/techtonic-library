@@ -71,3 +71,13 @@
 .hand-icon {
     margin: 5px;
 }
+
+.code{
+    margin: 1rem auto;
+    width: 400px;
+    overflow: auto;
+}
+
+.gist-meta{
+    display: none;
+}
