@@ -1,0 +1,53 @@
+@import "../../assets/common-css/sidebar.css";
+@import "../../assets/common-css/navbar.css";
+@import "../../assets/common-css/containers.css";
+@import "../../document-css/doc.css";
+
+.list-head, 
+.list-topic{
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+.list-head{
+    margin: -5px;
+}
+.list-topic{
+    margin-top: var(--type-margin);
+}
+.list-content{
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+.list-comp-container{
+    display: flex;
+    flex-basis: var(--container-flex-basis);
+    flex-direction: column;
+    gap: var(--content-gap);
+    padding: 2.5rem;
+    margin-top: var(--type-margin);
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
+    justify-content: center;
+    align-items: center;
+}
+.bullets{
+    list-style-type: circle;
+}
+.stacked, .spaced{
+    padding: 10px;
+    border-radius: var(--border-radius);
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+.stacked{
+    margin: 0.9375rem;
+}
+.spaced{
+    margin: 5px;
+    display: inline-block;
+    list-style-type: bullets;
+}
+.spaced:hover{
+    background-color: var(--secondary-color);
+}
