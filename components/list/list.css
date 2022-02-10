@@ -3,7 +3,8 @@
 @import "../../assets/common-css/containers.css";
 @import "../../document-css/doc.css";
 
-.list-head, .list-topic{
+.list-head, 
+.list-topic{
     color: var(--font-color);
     font-size: var(--head-type-font);
 }
