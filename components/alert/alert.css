@@ -38,7 +38,6 @@
 
 .alert-box,
 .alert-border {
-  height: 3.125rem;
     max-width: 56.25rem;
     border-radius: var(--border-radius);
 }
