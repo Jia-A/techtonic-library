@@ -76,3 +76,6 @@
 .gist-meta{
     display: none;
 }
+.smaller-text{
+    font-size: smaller;
+}

@@ -30,6 +30,9 @@
 .bullets{
     list-style-type: circle;
 }
+.no-bullets{
+    list-style-type: none;
+}
 .stacked, .spaced{
     padding: 10px;
     border-radius: var(--border-radius);
@@ -46,4 +49,16 @@
 }
 .spaced:hover{
     background-color: var(--secondary-color);
+}
+.code{
+    margin: 1rem auto;
+    width: 400px;
+    overflow: auto;
+}
+
+.gist-meta{
+    display: none;
+}
+.smaller-text{
+    font-size: smaller;
 }

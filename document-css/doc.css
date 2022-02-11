@@ -51,6 +51,9 @@ html{
     font-size: var(--content-font);
     color: var(--primary-color);
 }
+.smaller-text{
+    font-size: smaller;
+}
 
 
 

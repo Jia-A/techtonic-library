@@ -36,10 +36,11 @@
     margin: 10px;
 }
 .small-text{
-    font-size: smaller;
+    font-size: small;
 }
 .smaller-text{
-    font-size: small;
+
+    font-size: smaller;
 }
 .xsmall-text{
     font-size: x-small;
@@ -73,5 +74,6 @@
 .gist-meta{
     display: none;
 }
+
 
 

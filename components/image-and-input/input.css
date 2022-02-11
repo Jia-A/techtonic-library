@@ -62,4 +62,8 @@ label{
     display: none;
 }
 
+.smaller-text{
+    font-size: smaller;
+}
+
 
