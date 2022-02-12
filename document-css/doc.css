@@ -35,6 +35,9 @@ html{
     width: 400px;
     overflow: auto;
 }
+.gist-meta{
+    display: none;
+}
 
 
 
