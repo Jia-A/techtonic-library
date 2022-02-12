@@ -1,7 +1,7 @@
 @import "../assets/common-css/sidebar.css";
 @import "../assets/common-css/navbar.css";
 @import "../assets/common-css/containers.css";
-@import url(../../root.css);
+@import url(../root.css);
 
 html{
     font-family: 'Montserrat', sans-serif ;
