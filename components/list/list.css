@@ -1,4 +1,4 @@
-
+@import url(../../root.css);
 .list-head, 
 .list-topic{
     color: var(--font-color);

@@ -2,6 +2,7 @@
 @import "../../document-css/doc.css";
 @import "../../assets/common-css/sidebar.css";
 @import "../../assets/common-css/sidebar.css";
+@import url(../../root.css);
 
 .color-intro, .color-head{
     color: var(--font-color);
