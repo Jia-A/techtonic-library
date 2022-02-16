@@ -147,11 +147,15 @@ html{
 .link-border-btn a {
     color: #39779e;
 }
-
 .icon-btn {
     border: 1px solid var(--primary-color)
 }
-
+.icon-only-btn{
+    background-color: transparent;
+}
+.fa-2x:hover{
+    color: var(--secondary-color);
+}
 .icon-btn:hover {
     background-color: var(--primary-color);
     color: var(--whitesmoke-color);
