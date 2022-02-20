@@ -1,61 +1,60 @@
-
 @import url(../../root.css);
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap');
 html{
     font-family: 'Montserrat', sans-serif;
 }
-.list-head, 
-.list-topic{
+
+:root{
+    --img-width : 9.375rem;
+    --img-height : 9.375rem;
+}
+.image-head,
+.image-type{
     color: var(--font-color);
     font-size: var(--head-type-font);
 }
-.list-head{
+.image-head{
     margin: -5px;
 }
-.list-topic{
+.image-type{
     margin-top: var(--type-margin);
 }
-.list-content{
+.image-content, 
+.res-img-content{
     padding: var(--content-padding);
     font-size: var(--content-font);
     color: var(--primary-color);
 }
-.list-comp-container{
+.img-container{
     display: flex;
-    flex-basis: var(--container-flex-basis);
-    flex-direction: column;
-    gap: var(--content-gap);
-    padding: 2.5rem;
-    margin-top: var(--type-margin);
+    flex-direction: row;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.875rem;
     background-color: var(--eg-container-bg);
     border-radius: var(--border-radius);
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
-.bullets{
-    list-style-type: circle;
+
+.round-img,
+.square-img{
+    width: var(--img-width);
+    height: var(--img-height);
 }
-.no-bullets{
-    list-style-type: none;
+.round-img{
+    border-radius: 50%;
 }
-.stacked, .spaced{
-    padding: 10px;
+.square-img{
     border-radius: var(--border-radius);
-    color: var(--primary-color);
-    background-color: var(--background-color);
 }
-.stacked{
-    margin: 0.9375rem;
+.responsive-img{
+    width: 100%;
+    height: auto;
 }
-.spaced{
-    margin: 5px;
-    display: inline-block;
-    list-style-type: bullets;
-}
-.spaced:hover{
-    background-color: var(--secondary-color);
-}
+
 .code{
     margin: 1rem auto;
     width: 400px;
@@ -65,7 +64,7 @@ html{
 .gist-meta{
     display: none;
 }
+
 .smaller-text{
     font-size: smaller;
 }
-

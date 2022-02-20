@@ -1,61 +1,62 @@
-
 @import url(../../root.css);
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap');
 html{
     font-family: 'Montserrat', sans-serif;
 }
-.list-head, 
-.list-topic{
+
+.input-head, 
+.input-type{
     color: var(--font-color);
     font-size: var(--head-type-font);
 }
-.list-head{
+.input-head{
     margin: -5px;
 }
-.list-topic{
+.input-type{
     margin-top: var(--type-margin);
 }
-.list-content{
+.input-content{
     padding: var(--content-padding);
     font-size: var(--content-font);
     color: var(--primary-color);
 }
-.list-comp-container{
+.simple-input-boxes, 
+.search-bar-input{
     display: flex;
-    flex-basis: var(--container-flex-basis);
     flex-direction: column;
-    gap: var(--content-gap);
-    padding: 2.5rem;
-    margin-top: var(--type-margin);
+    gap: var(--content-padding);
+    align-items: center;
+    justify-content: center;
+    padding: 1.875rem;
     background-color: var(--eg-container-bg);
     border-radius: var(--border-radius);
-    justify-content: center;
-    align-items: center;
 }
-.bullets{
-    list-style-type: circle;
+label{
+    display: block;
+    margin:10px;
 }
-.no-bullets{
-    list-style-type: none;
+.input{
+    padding: 10px 15px;
+    width: 18.75rem;
+    outline: transparent;
 }
-.stacked, .spaced{
-    padding: 10px;
-    border-radius: var(--border-radius);
-    color: var(--primary-color);
-    background-color: var(--background-color);
+.password-label{
+    color: var(--warning-color);
 }
-.stacked{
-    margin: 0.9375rem;
+.password-input{
+    border: 1px solid var(--warning-color)
 }
-.spaced{
-    margin: 5px;
-    display: inline-block;
-    list-style-type: bullets;
+.invalid-message{
+    color: var(--warning-color);
+    font-size: small;
+    margin-top: 5px;
 }
-.spaced:hover{
-    background-color: var(--secondary-color);
+.search-box{
+    border-radius: 3.125rem;
+    border: 1px solid var(--primary-color);
 }
+
 .code{
     margin: 1rem auto;
     width: 400px;
@@ -65,7 +66,9 @@ html{
 .gist-meta{
     display: none;
 }
+
 .smaller-text{
     font-size: smaller;
 }
+
 

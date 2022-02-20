@@ -1,61 +1,77 @@
-
 @import url(../../root.css);
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap');
 html{
     font-family: 'Montserrat', sans-serif;
 }
-.list-head, 
-.list-topic{
+
+:root {
+    --normal-height: 6.25rem;
+    --normal-width: 6.25rem;
+}
+
+.avatar-head,
+.avatar-type {
     color: var(--font-color);
     font-size: var(--head-type-font);
 }
-.list-head{
+
+.avatar-head {
     margin: -5px;
 }
-.list-topic{
+
+.avatar-type {
     margin-top: var(--type-margin);
 }
-.list-content{
+
+.avatar-content {
     padding: var(--content-padding);
     font-size: var(--content-font);
     color: var(--primary-color);
 }
-.list-comp-container{
+
+.avatar-container {
     display: flex;
-    flex-basis: var(--container-flex-basis);
-    flex-direction: column;
-    gap: var(--content-gap);
-    padding: 2.5rem;
-    margin-top: var(--type-margin);
+    flex-direction: row;
+    gap: var(--container-gap);
+    align-items: center;
+    justify-content: center;
+    padding: 1.875rem;
     background-color: var(--eg-container-bg);
     border-radius: var(--border-radius);
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-top: var(--container-margin-top);
 }
-.bullets{
-    list-style-type: circle;
+
+.round-av,
+.squared-av {
+    width: var(--normal-width);
+    height: var(--normal-height);
 }
-.no-bullets{
-    list-style-type: none;
+
+.round-av {
+    border-radius: 50%;
 }
-.stacked, .spaced{
-    padding: 10px;
+
+.squared-av {
     border-radius: var(--border-radius);
-    color: var(--primary-color);
-    background-color: var(--background-color);
 }
-.stacked{
-    margin: 0.9375rem;
+
+.small {
+    width: 3.125rem;
+    height: 3.125rem;
 }
-.spaced{
-    margin: 5px;
-    display: inline-block;
-    list-style-type: bullets;
+
+.normal {
+    width: var(--normal-width);
+    height: var(--normal-height);
 }
-.spaced:hover{
-    background-color: var(--secondary-color);
+
+.large {
+    width: 9.375rem;
+    height: 9.375rem;
 }
+
 .code{
     margin: 1rem auto;
     width: 400px;
@@ -68,4 +84,3 @@ html{
 .smaller-text{
     font-size: smaller;
 }
-

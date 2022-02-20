@@ -1,0 +1,64 @@
+
+@import "../../assets/common-css/navbar.css";
+@import "../../document-css/doc.css";
+@import "../../assets/common-css/sidebar.css";
+@import "../../assets/common-css/sidebar.css";
+@import url(../../root.css);
+
+.color-intro, .color-head{
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+.color-head{
+    margin-bottom: 1.3rem;
+    margin-top: var(--type-margin);
+}
+.color-intro{
+    margin: -5px;
+}
+.color-content{
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+.palette{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+.color-box{
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    border:  1px solid #8e99a7;
+}
+.info{
+    padding-left: 1.25rem;
+}
+.primary{
+    width: 5rem;
+    background-color: var(--primary-color);
+
+}
+.secondary{
+    width: 5rem;
+    background-color: var(--secondary-color);
+}
+
+.font{
+    width: 5rem;
+    background-color: var(--font-color);
+}
+.good{
+    width: 5rem;
+    background-color: var(--good-color);
+}
+.alert{
+    width: 5rem;
+    background-color: var(--alert-color);
+}
+.warning{
+    width: 5rem;
+    background-color: var(--warning-color);
+}
+

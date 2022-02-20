@@ -1,27 +1,30 @@
-
 @import url(../../root.css);
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap');
 html{
     font-family: 'Montserrat', sans-serif;
 }
-.list-head, 
-.list-topic{
+.snackbar-head,
+.snackbar-topic {
     color: var(--font-color);
     font-size: var(--head-type-font);
 }
-.list-head{
+
+.snackbar-head {
     margin: -5px;
 }
-.list-topic{
+
+.snackbar-topic {
     margin-top: var(--type-margin);
 }
-.list-content{
+
+.snackbar-content {
     padding: var(--content-padding);
     font-size: var(--content-font);
     color: var(--primary-color);
 }
-.list-comp-container{
+
+.snackbar-container {
     display: flex;
     flex-basis: var(--container-flex-basis);
     flex-direction: column;
@@ -32,30 +35,44 @@ html{
     border-radius: var(--border-radius);
     justify-content: center;
     align-items: center;
+
 }
-.bullets{
-    list-style-type: circle;
+
+.retry,
+.cross-btn {
+    border: none;
+    background-color: rgb(66, 65, 65);
+    font-weight: bold;
+    color: #bb86fc;
 }
-.no-bullets{
-    list-style-type: none;
+
+.snack-main {
+    display: flex;
+
+    margin-bottom: 5px;
+    justify-content: space-around;
+    width: 25rem;
+
+    border-radius: 5px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
 }
-.stacked, .spaced{
-    padding: 10px;
-    border-radius: var(--border-radius);
-    color: var(--primary-color);
-    background-color: var(--background-color);
-}
-.stacked{
-    margin: 0.9375rem;
-}
-.spaced{
-    margin: 5px;
-    display: inline-block;
-    list-style-type: bullets;
-}
-.spaced:hover{
+
+.notify {
     background-color: var(--secondary-color);
+    color: var(--primary-color);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.6);
 }
+
+.error {
+    background-color: rgb(66, 65, 65);
+    color: var(--whitesmoke-color);
+}
+
+.hand-icon {
+    margin: 5px;
+}
+
 .code{
     margin: 1rem auto;
     width: 400px;
@@ -65,7 +82,7 @@ html{
 .gist-meta{
     display: none;
 }
+
 .smaller-text{
     font-size: smaller;
 }
-
