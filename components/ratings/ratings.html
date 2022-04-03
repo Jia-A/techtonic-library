@@ -65,7 +65,7 @@
                     <li class="comp-name"><a href="../image-and-input/image.html" class="side-link">Image</a></li>
                     <li class="comp-name"><a href="../image-and-input/input.html" class="side-link">Input</a></li>
                     <li class="comp-name"><a href="../list/list.html" class="side-link">List</a></li>
-                    <li class="comp-name active"><a href="../modal/modal.html" class="side-link">Ratings</a></li>
+                    <li class="comp-name active"><a href="../ratings/ratings.html" class="side-link">Ratings</a></li>
                     <li class="comp-name"><a href="../snackbar/snackbar.html" class="side-link">Snackbar</a></li>
                     <li class="comp-name"><a href="../text-utilities/text-uti.html" class="side-link">Text Utilities</a></li>
                 </ul>
@@ -73,10 +73,10 @@
             </div>
             <div class="rating-document">
                 <div class="rating-head">
-                    Rating
+                    Ratings
                 </div>
                 <div class="rating-content">
-                    Rating is used...
+                    Rating system is a quantitative system that is represented by symbols like stars that are used to judge the quality of things like businesses, products, services, etc
                 </div>
                 <hr>
                 <div class="rating-topic">
@@ -84,11 +84,11 @@
                 </div>
                 <div class="rating-container">
                     <div class="rating-box">
-                        <button class="rate-btn"><i class="fas fa-star fa-2x color"></i></button>
-                        <button class="rate-btn"><i class="fas fa-star fa-2x color"></i></button>
-                        <button class="rate-btn"><i class="fal fa-star fa-2x"></i></button>
-                        <button class="rate-btn"><i class="fal fa-star fa-2x"></i></button>
-                        <button class="rate-btn"><i class="fal fa-star fa-2x"></i></button>
+                        <button class="rate-btn"><i class="fas fa-star fa-2x rated"></i></button>
+                        <button class="rate-btn"><i class="fas fa-star fa-2x rated"></i></button>
+                        <button class="rate-btn"><i class="fas fa-star fa-2x unrated"></i></button>
+                        <button class="rate-btn"><i class="fas fa-star fa-2x unrated"></i></button>
+                        <button class="rate-btn"><i class="fas fa-star fa-2x unrated"></i></button>
                     </div>
                 </div>
                 <div class="code">
@@ -98,9 +98,28 @@
                     </code>
                 </div>
                 <hr>
+                <div class="rating-topic">
+                    Dynamic Ratings
+                </div>
+                <div class="rating-container">
+                    <div class="rating-box">
+                        <button class="rate-btn btn1"><i class="fas fa-star fa-2x unrated rate-col"></i></button>
+                        <button class="rate-btn btn2"><i class="fas fa-star fa-2x unrated rate-col"></i></button>
+                        <button class="rate-btn btn3"><i class="fas fa-star fa-2x unrated rate-col"></i></button>
+                        <button class="rate-btn btn4"><i class="fas fa-star fa-2x unrated rate-col"></i></button>
+                        <button class="rate-btn btn5"><i class="fas fa-star fa-2x unrated rate-col"></i></button>
+                    </div>
+                </div>
+                <div class="code">
+                    <p class="smaller-text">You can add these alert by adding a common class "alert-box" and then the alert type with classes "primary", "success", "attention", "warning". </p>
+                    <code class="code-cont">
+                        <script src="https://gist.github.com/Jia-A/2dbd914c745359cd845ae55f8e921773.js"></script>
+                    </code>
+                </div>
             </div>
         </div>
     </div>
+    <script src="ratings.js"></script>
 </body>
 
 </html>

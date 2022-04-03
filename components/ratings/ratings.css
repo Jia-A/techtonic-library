@@ -81,8 +81,11 @@ span {
 .smaller-text{
     font-size: smaller;
 }
-.fal, .fas{
-    color: rgb(236, 183, 47)
+.rated{
+    color: rgb(236, 183, 47);
+}
+.unrated{
+    color: rgb(199, 196, 196);
 }
 
 
