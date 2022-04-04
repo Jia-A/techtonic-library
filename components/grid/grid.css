@@ -1,0 +1,119 @@
+
+@import url(../../root.css);
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.grid-head,
+.grid-topic {
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+
+.grid-head {
+    margin: -5px;
+}
+
+.grid-topic {
+    margin-top: var(--type-margin);
+}
+
+.grid-content{
+
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+
+
+.grid-container {
+    display: flex;
+    flex-basis: var(--container-flex-basis);
+    flex-direction: column;
+    gap: var(--container-gap);
+    padding: 2.5rem;
+    margin-top: var(--container-margin-top);
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
+}
+
+.grid-box-simple{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    width: 500px;
+    gap: 10px;
+
+}
+.grid-box-uneven{
+    display: grid;
+    width: 500px;
+    gap: 10px;
+} 
+.box1{
+    grid-column: 1/ span 2;
+    grid-row: 1;
+    background-color: var(--primary-color);
+    color: var(--whitesmoke-color);
+}
+.box2{
+    grid-column: 3;
+    grid-row: 1/ span 2;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.box3{
+    grid-column: 1;
+    grid-row: 2/span 2;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.box4{
+    background-color: var(--primary-color);
+    color: var(--whitesmoke-color);
+}
+.box5{
+    grid-column: 2/span 2;
+    grid-row: 3;
+    background-color: var(--primary-color);
+    color: var(--whitesmoke-color);
+}
+.diff-gr{
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.gr-item{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    /* height: 100%; */
+    text-align: center;
+    padding: 10px;
+    color: var(--whitesmoke-color);
+
+}
+p {
+    margin: 1rem;
+}
+
+span {
+    font-size: var(--content-font);
+}
+
+
+.code{
+    margin: 1rem auto;
+    width: 400px;
+    overflow: auto;
+}
+
+.gist-meta{
+    display: none;
+}
+.smaller-text{
+    font-size: smaller;
+}
+
+
