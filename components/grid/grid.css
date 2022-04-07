@@ -45,13 +45,13 @@ html{
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-template-rows: repeat(2, minmax(0, 1fr));
-    width: 500px;
+    width: 31.25rem;
     gap: 10px;
 
 }
 .grid-box-uneven, .grid-box-col2{
     display: grid;
-    width: 500px;
+    width: 31.25rem;
     gap: 10px;
 } 
 .box1{
