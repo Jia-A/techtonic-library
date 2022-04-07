@@ -1,0 +1,83 @@
+
+@import url(../../root.css);
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slider-head,
+.slider-topic {
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+
+.slider-head {
+    margin: -5px;
+}
+
+.slider-topic {
+    margin-top: var(--type-margin);
+}
+
+.slider-content{
+
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+
+
+.slider-container {
+    display: flex;
+    flex-basis: var(--container-flex-basis);
+    flex-direction: column;
+    gap: var(--container-gap);
+    padding: 2.5rem;
+    margin-top: var(--container-margin-top);
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
+}
+
+.slider-box,
+.slider-border {
+    max-width: 56.25rem;
+    border-radius: var(--border-radius);
+    padding : 10px
+}
+
+.slider-box {
+    background-color: var(--whitesmoke-color);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+.slider-inp{
+    width: 25rem;
+}
+
+p {
+    margin: 1rem;
+}
+
+span {
+    font-size: var(--content-font);
+}
+
+
+.code{
+    margin: 1rem auto;
+    width: 400px;
+    overflow: auto;
+}
+
+.gist-meta{
+    display: none;
+}
+.smaller-text{
+    font-size: smaller;
+}
+
+
+
+
