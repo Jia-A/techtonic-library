@@ -1,0 +1,121 @@
+
+@import url(../../root.css);
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navi-head,
+.navi-topic {
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+
+.navi-head {
+    margin: -5px;
+}
+
+.navi-topic {
+    margin-top: var(--type-margin);
+}
+
+.navi-content{
+
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+
+
+.navi-container {
+    display: flex;
+    flex-basis: var(--container-flex-basis);
+    flex-direction: column;
+    gap: var(--container-gap);
+    padding: 2.5rem;
+    margin-top: var(--container-margin-top);
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
+}
+
+.navi-box,
+.navi-border {
+    max-width: 56.25rem;
+    border-radius: var(--border-radius);
+}
+
+.navi-box {
+    color: var(--whitesmoke-color);
+}
+
+.code{
+    margin: 1rem auto;
+    width: 400px;
+    overflow: auto;
+}
+
+.gist-meta{
+    display: none;
+}
+.smaller-text{
+    font-size: smaller;
+}
+.nav-con{
+    margin: 0;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    background-color: var(--whitesmoke-color);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.brand-name-center{
+    align-self: center;
+}
+.website-name{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.dot-img{
+    width: 15px;
+    height: 15px;
+}
+.icon{
+    color: var(--primary-color);
+}
+.btn-div{
+    display: inline;
+}
+.nav-btn{
+    display: flex;
+    flex-direction: row;
+}
+.icon-only-btn{
+    position:relative;
+}
+.real-badge{
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin: 0.875rem;
+    border-radius: 50%;
+    height: 0.8125rem;
+    width: 0.8125rem;
+    background-color: var(--alert-color);
+    color: var(--whitesmoke-color);
+    font-size: 0.7rem;
+    text-align: center;
+}
+.btn-badge{
+    padding: 0px;
+    position: relative;
+}
+
+
+
+
