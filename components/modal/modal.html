@@ -17,8 +17,9 @@
     <link rel="stylesheet" href="../../assets/common-css/sidebar.css">
     <link rel="stylesheet" href="../../assets/common-css/containers.css">
     <link rel="stylesheet" href="../../document-css/doc.css">
-    <link rel="stylesheet" href="./alert.css">
-    <title>Tec{h}tonic | Alert</title>
+    <link rel="stylesheet" href="../button/button.css">
+    <link rel="stylesheet" href="./modal.css">
+    <title>Tec{h}tonic | Modal</title>
 </head>
 
 <body>
@@ -57,7 +58,7 @@
                 </div>
 
                 <ul>
-                    <li class="comp-name active"><a href="../alert/alert.html" class="side-link">Alert</a></li>
+                    <li class="comp-name"><a href="../alert/alert.html" class="side-link">Alert</a></li>
                     <li class="comp-name"><a href="../avatar and badge/avatar.html" class="side-link">Avatar</a></li>
                     <li class="comp-name"><a href="../avatar and badge/badge.html" class="side-link">Badge</a></li>
                     <li class="comp-name"><a href="../button/button.html" class="side-link">Button</a></li>
@@ -66,7 +67,7 @@
                     <li class="comp-name"><a href="../image-and-input/image.html" class="side-link">Image</a></li>
                     <li class="comp-name"><a href="../image-and-input/input.html" class="side-link">Input</a></li>
                     <li class="comp-name"><a href="../list/list.html" class="side-link">List</a></li>
-                    <li class="comp-name"><a href="../modal/modal.html" class="side-link">Modal</a></li>
+                    <li class="comp-name active"><a href="../modal/modal.html" class="side-link">Modal</a></li>
                     <li class="comp-name"><a href="../navigation/navigation.html" class="side-link">Navigation</a></li>
                     <li class="comp-name"><a href="../ratings/ratings.html" class="side-link">Rating</a></li>
                     <li class="comp-name"><a href="../slider/slider.html" class="side-link">Slider</a></li>
@@ -75,60 +76,35 @@
                 </ul>
 
             </div>
-            <div class="alert-document">
-                <div class="alert-head">
-                    Alert
+            <div class="modal-document">
+                <div class="modal-head">
+                    Modal
                 </div>
-                <div class="alert-content">
-                    Alert is a component which is used to draw user's attention to a specified thing. Tec{h}tonic has 2
-                    categories of alert with 4 types in each.
+                <div class="modal-content">
+                    A modal is kind of a dialog box which pops up whenever a user clicks something on his current screen. It is also known as "modal popup". They can be used to notify something or ask the users some preferential questions.
                 </div>
                 <hr>
-                <div class="alert-topic">
-                    Alert with background color
+                <div class="modal-topic">
+                    Simple Modal
                 </div>
-                <div class="alert-container">
-                    <div class="alert-box primary">
-                        <p><span>Primary! </span>Everything looks good! Keep going...</p>
-                    </div>
-                    <div class="alert-box success">
-                        <p><span>Success! </span>Task successful!</p>
-                    </div>
-                    <div class="alert-box attention">
-                        <p><span>Alert! </span>You might have a problem here...</p>
-                    </div>
-                    <div class="alert-box warning">
-                        <p><span>Warning! </span>Something went wrong!!!</p>
+                <div class="modal-container">
+                    <div class="modal-box">
+                        <div class="modal-box-head">
+                            <h4>Confirm order placement!!</h4>
+                        </div>
+                        <div class="modal-para">
+                            <p>Choose Yes if you want to place this order.</p>
+                        </div>
+                        <div class="btn-flex">
+                            <button class="btn primary-btn">Yes</button>
+                            <button class="btn primary-btn-border">No</button>
+                        </div>
                     </div>
                 </div>
                 <div class="code">
-                    <p class="smaller-text">You can add these alert by adding a common class "alert-box" and then the alert type with classes "primary", "success", "attention", "warning". </p>
+                    <p class="smaller-text">By adding the below code, you'll get a modal which is able to ask the user about confirmation of placement of order. </p>
                     <code class="code-cont">
-                        <script src="https://gist.github.com/Jia-A/2dbd914c745359cd845ae55f8e921773.js"></script>
-                    </code>
-                </div>
-                <hr>
-                <div class="alert-topic">
-                    Alert with border only
-                </div>
-                <div class="alert-container">
-                    <div class="alert-border primary-border">
-                        <p><span>Primary! </span>Everything looks good! Keep going...</p>
-                    </div>
-                    <div class="alert-border success-border">
-                        <p><span>Success! </span>Task successful!</p>
-                    </div>
-                    <div class="alert-border attention-border">
-                        <p><span>Alert! </span>You might have a problem here...</p>
-                    </div>
-                    <div class="alert-border warning-border">
-                        <p><span>Warning! </span>Something went wrong!!!</p>
-                    </div>
-                </div>
-                <div class="code">
-                    <p class="smaller-text">You can add these alert with by adding a common class "alert-border" and then the alert type. </p>
-                    <code class="code-cont">
-                        <script src="https://gist.github.com/Jia-A/934d749c25869957a31f9435d354ab2d.js"></script>
+                        <script src="https://gist.github.com/Jia-A/9af734b471e2122f80766763722e6cbc.js"></script>
                     </code>
                 </div>
                 <hr>

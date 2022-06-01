@@ -1,0 +1,92 @@
+
+@import url(../../root.css);
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rating-head,
+.rating-topic {
+    color: var(--font-color);
+    font-size: var(--head-type-font);
+}
+
+.rating-head {
+    margin: -5px;
+}
+
+.rating-topic {
+    margin-top: var(--type-margin);
+}
+
+.rating-content{
+
+    padding: var(--content-padding);
+    font-size: var(--content-font);
+    color: var(--primary-color);
+}
+
+
+.rating-container {
+    display: flex;
+    flex-basis: var(--container-flex-basis);
+    flex-direction: column;
+    gap: var(--container-gap);
+    padding: 2.5rem;
+    margin-top: var(--container-margin-top);
+    background-color: var(--eg-container-bg);
+    border-radius: var(--border-radius);
+}
+
+.rating-box,
+.rating-border {
+    max-width: 56.25rem;
+    border-radius: var(--border-radius);
+    padding : 10px
+}
+
+.rating-box {
+    background-color: var(--whitesmoke-color);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+.rating-box-head{
+    border-bottom: 1px var(--primary-color) solid;
+}
+
+p {
+    margin: 1rem;
+}
+
+span {
+    font-size: var(--content-font);
+}
+
+.rate-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.code{
+    margin: 1rem auto;
+    width: 400px;
+    overflow: auto;
+}
+
+.gist-meta{
+    display: none;
+}
+.smaller-text{
+    font-size: smaller;
+}
+.rated{
+    color: rgb(236, 183, 47);
+}
+.unrated{
+    color: rgb(199, 196, 196);
+}
+
+
+

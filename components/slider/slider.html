@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="../../assets/common-css/sidebar.css">
     <link rel="stylesheet" href="../../assets/common-css/containers.css">
     <link rel="stylesheet" href="../../document-css/doc.css">
-    <link rel="stylesheet" href="./alert.css">
-    <title>Tec{h}tonic | Alert</title>
+    <link rel="stylesheet" href="./slider.css">
+    <title>Tec{h}tonic | Slider</title>
 </head>
 
 <body>
@@ -57,7 +57,7 @@
                 </div>
 
                 <ul>
-                    <li class="comp-name active"><a href="../alert/alert.html" class="side-link">Alert</a></li>
+                    <li class="comp-name"><a href="../alert/alert.html" class="side-link">Alert</a></li>
                     <li class="comp-name"><a href="../avatar and badge/avatar.html" class="side-link">Avatar</a></li>
                     <li class="comp-name"><a href="../avatar and badge/badge.html" class="side-link">Badge</a></li>
                     <li class="comp-name"><a href="../button/button.html" class="side-link">Button</a></li>
@@ -69,72 +69,41 @@
                     <li class="comp-name"><a href="../modal/modal.html" class="side-link">Modal</a></li>
                     <li class="comp-name"><a href="../navigation/navigation.html" class="side-link">Navigation</a></li>
                     <li class="comp-name"><a href="../ratings/ratings.html" class="side-link">Rating</a></li>
-                    <li class="comp-name"><a href="../slider/slider.html" class="side-link">Slider</a></li>
+                    <li class="comp-name active"><a href="../slider/slider.html" class="side-link">Slider</a></li>
                     <li class="comp-name"><a href="../snackbar/snackbar.html" class="side-link">Snackbar</a></li>
                     <li class="comp-name"><a href="../text-utilities/text-uti.html" class="side-link">Text Utilities</a></li>
                 </ul>
 
             </div>
-            <div class="alert-document">
-                <div class="alert-head">
-                    Alert
+            <div class="slider-document">
+                <div class="slider-head">
+                    Slider
                 </div>
-                <div class="alert-content">
-                    Alert is a component which is used to draw user's attention to a specified thing. Tec{h}tonic has 2
-                    categories of alert with 4 types in each.
+                <div class="slider-content">
+                    Sliders on a website are used so that a user has a range of thing to choose from. They are usually used when they are filtering price on an e-commerce website etc.
                 </div>
                 <hr>
-                <div class="alert-topic">
-                    Alert with background color
+                <div class="slider-topic">
+                    Slider with counter
                 </div>
-                <div class="alert-container">
-                    <div class="alert-box primary">
-                        <p><span>Primary! </span>Everything looks good! Keep going...</p>
-                    </div>
-                    <div class="alert-box success">
-                        <p><span>Success! </span>Task successful!</p>
-                    </div>
-                    <div class="alert-box attention">
-                        <p><span>Alert! </span>You might have a problem here...</p>
-                    </div>
-                    <div class="alert-box warning">
-                        <p><span>Warning! </span>Something went wrong!!!</p>
+                <div class="slider-container">
+                    <div class="slider-box">
+                        <input type="range" class="slider-inp" min="0" max="100" value="0">
+                        <div class="slider-out"></div>
                     </div>
                 </div>
                 <div class="code">
-                    <p class="smaller-text">You can add these alert by adding a common class "alert-box" and then the alert type with classes "primary", "success", "attention", "warning". </p>
+                    <p class="smaller-text">By adding the below code, you will get a slider with a counter. </p>
                     <code class="code-cont">
-                        <script src="https://gist.github.com/Jia-A/2dbd914c745359cd845ae55f8e921773.js"></script>
+                        <script src="https://gist.github.com/Jia-A/f2fdc583f142b6f2a832110b3fb31603.js"></script>
                     </code>
                 </div>
                 <hr>
-                <div class="alert-topic">
-                    Alert with border only
-                </div>
-                <div class="alert-container">
-                    <div class="alert-border primary-border">
-                        <p><span>Primary! </span>Everything looks good! Keep going...</p>
-                    </div>
-                    <div class="alert-border success-border">
-                        <p><span>Success! </span>Task successful!</p>
-                    </div>
-                    <div class="alert-border attention-border">
-                        <p><span>Alert! </span>You might have a problem here...</p>
-                    </div>
-                    <div class="alert-border warning-border">
-                        <p><span>Warning! </span>Something went wrong!!!</p>
-                    </div>
-                </div>
-                <div class="code">
-                    <p class="smaller-text">You can add these alert with by adding a common class "alert-border" and then the alert type. </p>
-                    <code class="code-cont">
-                        <script src="https://gist.github.com/Jia-A/934d749c25869957a31f9435d354ab2d.js"></script>
-                    </code>
-                </div>
-                <hr>
+                
             </div>
         </div>
     </div>
+    <script src="slider.js"></script>
 </body>
 
 </html>

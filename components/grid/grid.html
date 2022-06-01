@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="../../assets/common-css/sidebar.css">
     <link rel="stylesheet" href="../../assets/common-css/containers.css">
     <link rel="stylesheet" href="../../document-css/doc.css">
-    <link rel="stylesheet" href="./alert.css">
-    <title>Tec{h}tonic | Alert</title>
+    <link rel="stylesheet" href="./grid.css">
+    <title>Tec{h}tonic | Grid</title>
 </head>
 
 <body>
@@ -57,12 +57,12 @@
                 </div>
 
                 <ul>
-                    <li class="comp-name active"><a href="../alert/alert.html" class="side-link">Alert</a></li>
+                    <li class="comp-name"><a href="../alert/alert.html" class="side-link">Alert</a></li>
                     <li class="comp-name"><a href="../avatar and badge/avatar.html" class="side-link">Avatar</a></li>
                     <li class="comp-name"><a href="../avatar and badge/badge.html" class="side-link">Badge</a></li>
                     <li class="comp-name"><a href="../button/button.html" class="side-link">Button</a></li>
                     <li class="comp-name"><a href="../card/card.html" class="side-link">Card</a></li>
-                    <li class="comp-name"><a href="../grid/grid.html" class="side-link">Grid</a></li>
+                    <li class="comp-name active"><a href="../grid/grid.html" class="side-link">Grid</a></li>
                     <li class="comp-name"><a href="../image-and-input/image.html" class="side-link">Image</a></li>
                     <li class="comp-name"><a href="../image-and-input/input.html" class="side-link">Input</a></li>
                     <li class="comp-name"><a href="../list/list.html" class="side-link">List</a></li>
@@ -75,60 +75,69 @@
                 </ul>
 
             </div>
-            <div class="alert-document">
-                <div class="alert-head">
-                    Alert
+            <div class="grid-document">
+                <div class="grid-head">
+                    Grid
                 </div>
-                <div class="alert-content">
-                    Alert is a component which is used to draw user's attention to a specified thing. Tec{h}tonic has 2
-                    categories of alert with 4 types in each.
+                <div class="grid-content">
+                    The grid system helps align page elements based on sequenced columns and rows. We use this column-based structure to place text, images, and functions in a consistent way throughout the design
                 </div>
                 <hr>
-                <div class="alert-topic">
-                    Alert with background color
+                <div class="grid-topic">
+                    Grid with 3 columns and 2 rows
                 </div>
-                <div class="alert-container">
-                    <div class="alert-box primary">
-                        <p><span>Primary! </span>Everything looks good! Keep going...</p>
-                    </div>
-                    <div class="alert-box success">
-                        <p><span>Success! </span>Task successful!</p>
-                    </div>
-                    <div class="alert-box attention">
-                        <p><span>Alert! </span>You might have a problem here...</p>
-                    </div>
-                    <div class="alert-box warning">
-                        <p><span>Warning! </span>Something went wrong!!!</p>
+                <div class="grid-container">
+                    <div class="grid-box-simple">
+                        <div class="gr-item">1</div>
+                        <div class="gr-item">2</div>
+                        <div class="gr-item">3</div>
+                        <div class="gr-item">4</div>
+                        <div class="gr-item">5</div>
+                        <div class="gr-item">6</div>
                     </div>
                 </div>
                 <div class="code">
-                    <p class="smaller-text">You can add these alert by adding a common class "alert-box" and then the alert type with classes "primary", "success", "attention", "warning". </p>
+                    <p class="smaller-text">By adding below code, you'll get a grid with 3 columns and 2 rows. </p>
                     <code class="code-cont">
-                        <script src="https://gist.github.com/Jia-A/2dbd914c745359cd845ae55f8e921773.js"></script>
+                        <script src="https://gist.github.com/Jia-A/2884091f9ac2e47f73bb3e0234067817.js"></script>
                     </code>
                 </div>
                 <hr>
-                <div class="alert-topic">
-                    Alert with border only
+                <div class="grid-topic">
+                    Grid with 2 columns and 4 rows
                 </div>
-                <div class="alert-container">
-                    <div class="alert-border primary-border">
-                        <p><span>Primary! </span>Everything looks good! Keep going...</p>
-                    </div>
-                    <div class="alert-border success-border">
-                        <p><span>Success! </span>Task successful!</p>
-                    </div>
-                    <div class="alert-border attention-border">
-                        <p><span>Alert! </span>You might have a problem here...</p>
-                    </div>
-                    <div class="alert-border warning-border">
-                        <p><span>Warning! </span>Something went wrong!!!</p>
+                <div class="grid-container">
+                    <div class="grid-box-col2">
+                        <div class="diff-gr item1">1</div>
+                        <div class="diff-gr item2">2</div>
+                        <div class="diff-gr item3">3</div>
+                        <div class="diff-gr item4">4</div>
+                        <div class="diff-gr item5">5</div>
+                        <div class="diff-gr item6">6</div>
                     </div>
                 </div>
                 <div class="code">
-                    <p class="smaller-text">You can add these alert with by adding a common class "alert-border" and then the alert type. </p>
+                    <p class="smaller-text">By adding below code, you'll get a grid with 2 columns and 4 rows in different ways.</p>
                     <code class="code-cont">
-                        <script src="https://gist.github.com/Jia-A/934d749c25869957a31f9435d354ab2d.js"></script>
+                        <script src="https://gist.github.com/Jia-A/1ba5276ddc35badc5108ebc789566d08.js"></script>
+                    </code>
+                </div>
+                <div class="grid-topic">
+                    Uneven Grid
+                </div>
+                <div class="grid-container">
+                    <div class="grid-box-uneven">
+                        <div class="diff-gr box1">1</div>
+                        <div class="diff-gr box2">2</div>
+                        <div class="diff-gr box3">3</div>
+                        <div class="diff-gr box4">4</div>
+                        <div class="diff-gr box5">5</div>
+                    </div>
+                </div>
+                <div class="code">
+                    <p class="smaller-text">By adding below code, you'll get an uneven grid with 3 columns and 3 rows.</p>
+                    <code class="code-cont">
+                        <script src="https://gist.github.com/Jia-A/4bb36e62ad5fb6069ee7afd7e2e4e163.js"></script>
                     </code>
                 </div>
                 <hr>
